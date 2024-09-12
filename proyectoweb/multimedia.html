@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+    <title>Proyecto con HTML5</title>
+</head>
+<body>
+    <header>
+        <h1>Multimedia HTML5</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" style="text-decoration: none;">Inicio</a></li>
+            <li><a href="multimedia.html" style="text-decoration: none;">Multimedia</a></li>
+            <li><a href="dieta.html" style="text-decoration: none;">Dieta</a></li>
+            <li><a href="contacto.html" style="text-decoration: none;">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="multimedia">
+            <h2>Multimedia</h2>
+            
+            <div>
+            <h3>Video 1 - Externo</h3>
+            <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/m-jlLY1iN-E?si=oWNvUHDEsdo3vhUp" title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+            No es compatible
+            </iframe>
+            </div>
+
+            <hr/>
+
+            <div>
+                <h3>Video 2 - Local</h3>
+                <iframe 
+                    src="sources/Short 2.mp4" 
+                    frameborder="0"
+                    height="560">
+                No es compatible
+                </iframe>
+            </div>
+
+            <hr/>
+
+            <div>
+                <h3>Audio - Local</h3>
+                <audio 
+                    src="sources/San pedro.mp3" 
+                    controls muted autoplay>
+                No es compatible
+                </audio>
+            </div>
+            <hr/>
+        </section>
+    </main>
+    <footer>
+        <p>
+            <a href="#top" style="text-decoration: none; color: black;">Proyecto de html con ejercicios de Víctor Robles WEB por Daniel Suesca&copy; 2024</a>
+        </p>
+    </footer>
+</body>
+</html>
