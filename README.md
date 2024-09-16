@@ -12,10 +12,3 @@ To get a local copy up and running, follow these simple steps:
     ```sh
     cd proyectoweb
     ```
-3. Install dependencies:
-    ```sh
-    npm install
-    ```
-4. Start the development server:
-    ```sh
-    npm start
