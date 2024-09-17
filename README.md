@@ -37,7 +37,7 @@ No se necesita ningún software adicional, ya que HTML puede ejecutarse en cualq
 
 ## Objetivo del Curso
 
-El objetivo de este curso es enseñar los fundamentos de HTML, ayudando a los principiantes a comprender cómo estructurar una página web de manera correcta. Al final del curso, deberías ser capaz de:
+El objetivo de este proyecto es practicar los fundamentos de HTML.
 
 - Crear documentos HTML válidos.
 - Organizar contenido con etiquetas semánticas.
